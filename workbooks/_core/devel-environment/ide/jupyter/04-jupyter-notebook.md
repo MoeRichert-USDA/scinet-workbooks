@@ -13,7 +13,7 @@ description: Describe the workbook for index and search purposes
 wgs: geospatial
 ---
 
-{% include images_path folder=3 %}
+{% include images_path folder=-1 %}
 
 
 

@@ -6,7 +6,7 @@ author: Sharu Paul
 header:
   overlay_image: 04-devel-environment/assets/img/04_development_envir_banner.png
 type: interactive tutorial
-tags: r-studio
+tags: rstudio
 description: Describe the workbook for index and search purposes
 interface: GUI
 ---

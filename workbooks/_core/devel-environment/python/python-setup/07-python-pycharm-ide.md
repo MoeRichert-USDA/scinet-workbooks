@@ -12,7 +12,7 @@ type: lesson module
 description: Describe the workbook for index and search purposes
 ---
 
-{% include images_path %}
+{% include images_path folder=-2 %}
 
 
 ---

@@ -13,11 +13,10 @@ description: Describe the workbook for index and search purposes
 ---
 
 
-{% include images_path folder=3 %}
+{% include images_path folder=-1 %}
 
 
 ---
-
 
 # Introduction
 
