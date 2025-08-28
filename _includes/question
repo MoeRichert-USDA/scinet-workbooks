@@ -1,7 +1,7 @@
 {%- assign questions = page.questions %}{% assign qid = include.qid %}
 {%- assign q = questions | find: "qid", qid %}
 {% if q %}
-{% include form/quiz/questions q=q title=include.title qid=qid %}
+{% include form/quiz/questions q=q title=include.title qid=qid text=include.content %}
 {% else %}
 {% assign qids = qid | split: "," %}
 {% for _ids in qids %}
